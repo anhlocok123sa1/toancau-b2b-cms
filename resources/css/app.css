@@ -1,0 +1,23 @@
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source "../views/**/*.blade.php";
+@source "../js/**/*.vue";
+@source "../js/**/*.js";
+
+@theme {
+  --font-sans: 'Plus Jakarta Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
+  --color-navy: #0F294A;
+  --color-navy-dark: #0A1C33;
+  --color-navy-light: #183F70;
+  --color-cyan: #0284C7;
+  --color-cyan-hover: #0369A1;
+  --color-surface: #F8FAFC;
+  --color-cta: #EA580C;
+  --color-cta-hover: #C2410C;
+}
+
+html {
+  scroll-behavior: smooth;
+}
