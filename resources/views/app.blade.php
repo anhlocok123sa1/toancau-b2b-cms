@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#0F294A">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
     <title inertia>Toàn Cầu Technology - Hạ tầng số, Kết nối thông minh, Giải pháp công nghệ</title>
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
